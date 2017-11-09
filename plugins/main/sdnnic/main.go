@@ -27,6 +27,7 @@ import (
 	"github.com/containernetworking/cni/pkg/version"
 )
 
+//PluginRegistry sdn service plugin
 var PluginRegistry map[string]SDNPlugin = make(map[string]SDNPlugin)
 
 // PluginConf is whatever you expect your configuration json to be. This is whatever
